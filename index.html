@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>Calm & Corrected Copy-Editing by Catherine Brett</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+        <style type="text/css">
+            body {
+                margin: 0;
+                background: #f2edee;
+                font-family: 'Roboto Slab', serif;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+                justify-content: space-between;
+            }
+            .language-switcher {
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: #d6bec3;
+                padding: 0 10px;
+            }
+            .language-switcher a {
+                display: inline-block;
+                text-decoration: none;
+                padding: 10px;
+            }
+            header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            header img {
+                width: 100%;
+                max-width: 500px;
+                margin: 50px 10px;
+            }
+            a {
+                color: #47252c;
+                transition: color 0.2s;
+            }
+            a:hover {
+                color: #d14966;
+            }
+            header nav a {
+                padding: 4px 7px;
+            }
+
+            main {
+                min-height: 1000px;
+            }
+
+            footer {
+                margin-top: 220px;
+                padding-top: 40px;
+                background: #d6bec3;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: center;
+                position: relative;
+                flex-wrap: wrap;
+            }
+            footer:before {
+                content: '';
+                background-image: url('/decorations/footer-line.png');
+                background-repeat: no-repeat;
+                background-size: auto 100%;
+                background-position: center;
+                position: absolute;
+                top: -128px;
+                left: 0;
+                right: 0;
+                height: 150px;
+                width: 100%;
+            }
+            footer a {
+                color: inherit;
+            }
+            footer a:hover {
+                color: inherit;
+            }
+            footer .special-highlight-link {
+                background-image: url('/underlines/link-01.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: bottom center;
+                display: inline-block;
+                padding: 0 0 8px;
+                margin-bottom: -8px;
+            }
+            footer > div {
+                min-width: 275px;
+                width: 100%;
+                max-width: 300px;
+                padding: 40px;
+                box-sizing: border-box;
+            }
+            footer > .spacer {
+                min-width: 0;
+                max-width: 150px;
+                width: 0;
+                flex-grow: 1;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="language-switcher">
+            <a href="#">DA</a>
+            <a href="#">ENG</a>
+        </div>
+        <header>
+            <img src="/logo.png">
+            <nav>
+                <a href="/">Home</a>
+                <a href="/blog/">Blog</a>
+                <a href="/proofreading/">Proofreading</a>
+                <a href="/editing/">Editing</a>
+                <a href="/translation/">Translation</a>
+                <a href="/copywriting/">Copywriting</a>
+                <a href="/about/">About</a>
+                <a href="/contact/">Contact</a>
+            </nav>
+        </header>
+        <main>
+            Hello, world.
+        </main>
+        <footer>
+            <div>
+                <br>
+                <br>
+                Calm and Corrected IVS<br>
+                CVR 00000000<br>
+                <br>
+                <a href="mailto:catherine@calmandcorrected.dk" class="special-highlight-link">catherine@calmandcorrected.dk</a><br>
+                <br>
+                &copy; Calm and Corrected 2019.
+            </div>
+            <div class="spacer"></div>
+            <div>
+                <a href="/">Home</a><br>
+                <a href="/blog/">Blog</a><br>
+                <a href="/proofreading/">Proofreading</a><br>
+                <a href="/editing/">Editing</a><br>
+                <a href="/translation/">Translation</a><br>
+                <a href="/copywriting/">Copywriting</a><br>
+                <a href="/about/">About</a><br>
+                <a href="/contact/">Contact</a>
+            </div>
+        </footer>
+    </body>
+</html>
